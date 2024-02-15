@@ -1,0 +1,48 @@
+
+body{
+    background-color: #D6E1F0;
+}
+
+div {
+    margin: 12% 40.5% 12% 40.5%;
+    border-color:black;
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+div h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div p {
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    margin: 0 0 30px;
+}
+
+div img{
+    border-radius: 8%;
+    padding: 8px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    div{
+        margin: 15% 30px;
+    }
+
+    div img{
+        width: 260px;
+        border-radius: 6%;
+        padding: 10px;
+    }
+    div p{
+        font-size: 15px;
+        margin: 0 0 40px;
+    }
+    div h3{
+        font-size: 20px;
+    }
+  }
